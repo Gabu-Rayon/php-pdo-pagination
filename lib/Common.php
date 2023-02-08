@@ -1,11 +1,12 @@
 <?php
-namespace Phppot;	
-use Phppot\Config;
+namespace Php8user;	
+use Php8user\Config;
 
 class Common
 {
 
     private $conn;
+    private $config;
 
     function __construct()
     {

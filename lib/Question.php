@@ -1,14 +1,16 @@
 <?php
-namespace Phppot;
+namespace Php8user;
 
-use Phppot\DataSource;
-use Phppot\Common;
-use Phppot\Config;
+use Php8user\DataSource;
+use Php8user\Common;
+use Php8user\Config;
 
 class Question
 {
 
     private $conn;
+    public $common;
+    public $config;
 
     function __construct()
     {

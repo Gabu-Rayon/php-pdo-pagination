@@ -1,12 +1,12 @@
 <?php
 /**
- * Copyright (C) Phppot
+ * Copyright (C) Php8user
  *
  * Distributed under 'The MIT License (MIT)'
  * In essense, you can do commercial use, modify, distribute and private use.
- * Though not mandatory, you are requested to attribute Phppot URL in your code or website.
+ * Though not mandatory, you are requested to attribute Php8user URL in your code or website.
  */
-namespace Phppot;
+namespace Php8user;
 
 /**
  * Generic datasource class for handling DB operations.
@@ -23,7 +23,7 @@ class DataSource
 
     const PASSWORD = '';
 
-    const DATABASENAME = 'bootstrap5_pagination';
+    const DATABASENAME = 'pagenation-tutor-system-01-db';
 
     private $conn;
 

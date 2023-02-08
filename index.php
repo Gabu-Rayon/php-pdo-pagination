@@ -1,7 +1,7 @@
 <?php
-namespace Phppot;
+namespace Php8user;
 
-use Phppot\DataSource;
+use Php8user\DataSource;
 require_once __DIR__ . '/lib/Question.php';
 $question = new Question();
 $result = $question->getAllProducts();
